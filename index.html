@@ -121,7 +121,7 @@
           }
         }
 
-        // Install faker-file using micropip
+        // Install fake.py using micropip
         await pyodide.loadPackage("micropip");
         await pyodide.runPythonAsync("import micropip");
         await pyodide.runPythonAsync("micropip.install('fake.py')");
