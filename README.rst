@@ -20,13 +20,13 @@ Usage examples
 
     name = FAKER.name()
     email = FAKER.email()
-    country = FAKER.country()
+    country_code = FAKER.country_code()
     sentence = FAKER.sentence()
     png = FAKER.png()
 
     print(name)
     print(email)
-    print(country)
+    print(country_code)
     print(sentence)
     print(png)
 
